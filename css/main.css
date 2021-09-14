@@ -200,6 +200,7 @@
   border-radius: 4px;
   background: #7854F7;
   color: #fff;
+  border: none;
 }
 
 .header .intro .container .img__wrapper .sale__btn {
@@ -249,7 +250,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  width: 716px;
+  width: 710px;
   color: #94A2B3;
   padding: 29px 0 57px;
 }

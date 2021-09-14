@@ -13,3 +13,7 @@ cardbtn.addEventListener('click', () => {
     shoesModeal.classList.toggle("activ");
 })
 
+
+
+
+
