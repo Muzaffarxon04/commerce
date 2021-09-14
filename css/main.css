@@ -429,10 +429,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 30px;
 }
 
 .footer .footer__navbar .container .wrapper a {
   margin-right: 30px;
+}
+
+.footer .footer__navbar .container address {
+  font-style: normal;
 }
 
 .footer .footer__navbar .container address a {
