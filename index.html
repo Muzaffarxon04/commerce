@@ -28,100 +28,205 @@
             </div>
         </nav>
         <section class="intro">
-        <div class="container">
-            
-                    <div class="intro__text__wrapper">
-                        <h1 class="intro__title">Building exactly the eCommerce website you want.</h1>
-                        <p class="intro__text">WooCommerce is a customizable, open-source eCommerce platform built on WordPress.
-                            Get started quickly and make your way.</p>
-                            <a href="#" class="intro__btn">Start a New Store</a>
-                            <a href="#" class="intro__btn customize">or Customize & Extend ›</a>
-                        </div>
-                        <img src="/img/shoes.png" alt="shoes" class="shoes" width="420" height="400">
+            <div class="container">
+                
+                <div class="intro__text__wrapper">
+                    <h1 class="intro__title">Building exactly the eCommerce website you want.</h1>
+                    <p class="intro__text">WooCommerce is a customizable, open-source eCommerce platform built on WordPress.
+                        Get started quickly and make your way.</p>
+                        <a href="#" class="intro__btn">Start a New Store</a>
+                        <a href="#" class="intro__btn customize">or Customize & Extend ›</a>
                     </div>
-        </div>
+                    <div class="img__wrapper shoes">
+                        <img src="/img/shoes.png" srcset="/img/shoes.png, /img/shoes@2x.png" alt="shoes" width="300" height="350">
+<button class="sale__btn">SALE</button>
+<button class="sell__btn"></button>
+                       <div class="text__wrapper">
+                           <p class=""><b>SHOES</b> Adidas Originals</p>
+                            <h2 class="shoes__title">Adidas Originals
+                                OG Sneakers</h2>
+                            
+                            <button id="addbtn" class="shoes__btn">Add to cart</button>
+                       </div>
+
+
+</div>
+<div id="shoesmodal" class="modal__shoes">
+ <span><img src="/img/Stripe-Logo.svg" alt="LOGO"><p class="">
+        Stripe gateway</p></span>
+    <span><img src="/img/PayPal-Logo.svg" alt="logo"><p class="">Paypal payments</p></span>
+    <span><img src="/img/Vector1.svg" alt="logo"><p class="">Bank Transfers</p></span>
+
+</div>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="simple">
+            <div class="container">
+                <h2 class="simple__title">Your eCommerce
+                    made simple</h2>
+                    <div class="card__wrapper">
+                <button id="pay" class="pay__btn"><img src="./img/pay.svg" alt="pay"></button>
+                        <div id="modal" class="modal">
+                            <img src="./img/modal.png" alt="">
+                        </div>
+                        <div class="card">
+                            <img src="./img/phonesale.png" srcset="./img/phonesale.png 1x, ./img/phonesale@2x.png 2x" alt="img">
+                            <h3 class="card__title">All You Need to Start</h3>
+                            <p class="card__describtion">Add WooCommerce plugin to any WordPress site and set up a new store in minutes.</p>
+                            <a href="#" class="card__btn">Ecommerce for Wordpress ›</a>
+                        </div>
+                        <div class="card">
+                            <img src="./img/phone.png" srcset="./img/phone.png 1x, ./img/phone@2x.png 2x" alt="img">
+                            <h3 class="card__title">Customize and Extend</h3>
+                            <p class="card__describtion">From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.</p>
+                            <a href="#" class="card__btn">Browse Extensions ›</a>
+                        </div>
+                        <div class="card">
+                            <img src="./img/coder.png" srcset="../img/coder.png 1x, ./img/coder@2x.png 2x" alt="img">
+                            <h3 class="card__title">Active Community</h3>
+                            <p class="card__describtion">WooCommerce is one of the fastest-growing eCommerce communities.</p>
+                            <a href="#" class="card__btn">Check our Forums ›</a>
+                        </div>
+                    </div>
+                </div>
             </section>
-        </header>
-        <main class="main">
-                <section class="simple">
-                    <div class="container">
-                        <h2 class="simple__title">Your eCommerce
-                            made simple</h2>
-                            <div class="card__wrapper">
-                                <div class="card">
-                                    <img src="./img/phonesale.png" srcset="./img/phonesale.png 1x, ./img/phonesale@2x.png 2x" alt="img">
-                                    <h3 class="card__title">All You Need to Start</h3>
-                                    <p class="card__describtion">Add WooCommerce plugin to any WordPress site and set up a new store in minutes.</p>
-                                    <a href="#" class="card__btn">Ecommerce for Wordpress ›</a>
-                                </div>
-                                <div class="card">
-                                    <img src="./img/phone.png" srcset="./img/phone.png 1x, ./img/phone@2x.png 2x" alt="img">
-                                    <h3 class="card__title">Customize and Extend</h3>
-                                    <p class="card__describtion">From subscriptions to gym classes to luxury cars, WooCommerce is fully customizable.</p>
-                                    <a href="#" class="card__btn">Browse Extensions ›</a>
-                                </div>
-                                <div class="card">
-                                    <img src="./img/coder.png" srcset="../img/coder.png 1x, ./img/coder@2x.png 2x" alt="img">
-                                    <h3 class="card__title">Active Community</h3>
-                                    <p class="card__describtion">WooCommerce is one of the fastest-growing eCommerce communities.</p>
-                                    <a href="#" class="card__btn">Check our Forums ›</a>
+            <section class="coworking">
+                <div class="container">
+                    <div class="block">
+                        <img src="/img/girlmac.png" srcset="/img/girlmac.png , /img/girlmac@2x.png" alt="mentor">
+                        <div class="text__wrapper">
+                            <h3 class="block__title">Develop
+                                Without Limits</h3>
+                                <p class="block__text">WooCommerce is developer friendly, too. Built with a REST API, WooCommerce is scalable and can integrate with virtually
+                                    any service. Design a complex store from scratch, extend a store for a client, or simply add a single product to a
+                                    WordPress site—your store, your way.</p>
+                                    <a href="#" class="read__btn">Read the Documentation</a>
                                 </div>
                             </div>
-                    </div>
-                    </section>
-                    <section class="coworking">
-                        <div class="container">
-                        <div class="block">
-                            <img src="/img/girlmac.png" srcset="/img/girlmac.png , /img/girlmac@2x.png" alt="mentor">
-                            <div class="text__wrapper">
-                                <h3 class="block__title">Develop
-                                    Without Limits</h3>
-                                    <p class="block__text">WooCommerce is developer friendly, too. Built with a REST API, WooCommerce is scalable and can integrate with virtually
-                                        any service. Design a complex store from scratch, extend a store for a client, or simply add a single product to a
-                                        WordPress site—your store, your way.</p>
-                                        <a href="#" class="read__btn">Read the Documentation</a>
+                            <div class="block">
+                                <img src="/img/board.png" srcset="/img/board.png , /img/board@2x.jpg" alt="mentor2">
+                                <div class="text__wrapper">
+                                    <h3 class="block__title">Know our
+                                        Global Community</h3>
+                                        <p class="block__text">WooCommerce is one of the fastest-growing eCommerce communities. We’re proud that the helpfulness of the community and a
+                                            wealth of online resources are frequently cited as reasons our users love it. There are 80+ meetups worldwide!</p>
+                                            <a href="#" class="read__btn">Read the Documentation</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="block">
-                                    <img src="/img/board.png" srcset="/img/board.png , /img/board@2x.jpg" alt="mentor2">
-                                    <div class="text__wrapper">
-                                        <h3 class="block__title">Know our
-                                            Global Community</h3>
-                                            <p class="block__text">WooCommerce is one of the fastest-growing eCommerce communities. We’re proud that the helpfulness of the community and a
-                                                wealth of online resources are frequently cited as reasons our users love it. There are 80+ meetups worldwide!</p>
-                                                <a href="#" class="read__btn">Read the Documentation</a>
-                                            </div>
+                            </section>
+                            <section class="mentors">
+                                <div class="container">
+                                    <h2 class="mentors__title">Trusted by Agencies
+                                        & Store Owners</h2>
+                                        <div class="blok"><p class="blok__text">No other eCommerce platform allows people to start for free and grow their store as their business grows. More
+                                            importantly, WooCommerce doesn't charge you a portion of your profits as your business grows!</p></div>
+
                                         </div>
+                                        <button><img src="./img/arrov-left.svg" alt="left"></button>
+                                        <button><img src="./img/arrow-right.svg" alt="right"></button>
+                                    </section>
+                                    <section class="people">
+                                        <div class="container">
+                                            <h2 class="people__title">Supported by real people</h2>
+                                            <p class="people__text">Our team of Happiness Engineers works remotely from 58 countries providing customer support across multiple time zones.</p>
+                                        </div>
+                                        <div class="people__bootom">
+                                            <div class="container">
+                                                <h2 class="people__bootom__text">WooCommerce - the <b> most customizable eCommerce platform</b> for building <b> your online business.</b></h2>
+                                                <a href="#" class="getstart__btn">GET STARTED</a>
+                                            </div>
                                         </div>
                                     </section>
-                                    <section class="mentors">
+                                    
+                                </main>
+                                <footer class="footer">
+                                    <section class="footer__top">
                                         <div class="container">
-                                        <h2 class="mentors__title">Trusted by Agencies
-                                            & Store Owners</h2>
-                                            <div class="blok"><p class="blok__text">No other eCommerce platform allows people to start for free and grow their store as their business grows. More
-                                            importantly, WooCommerce doesn't charge you a portion of your profits as your business grows!</p></div>
-                                            </div>
-                                            </section>
-                                            <section class="people">
-                                                <div class="container">
-                                                    <h2 class="people__title">Supported by real people</h2>
-                                                    <p class="people__text">Our team of Happiness Engineers works remotely from 58 countries providing customer support across multiple time zones.</p>
+                                            <div class="gen">
+                                                <ul class="wrapper">
+                                                    <li class="check">30 day <b>money back guarantee</b></li>
+                                                    <li class="radio"><b> Support </b> teams across the worlli</li>
+                                                    <li class="safe"><b> Safe & Secure</b> online payment<li>
+                                                    </ul>
+                                                    <a href="index.html" class="footer__logo"><img src="/img/LOGOwhite.svg" alt="logo"></a>
                                                 </div>
-                                                    <div class="people__bootom">
-                                                        <div class="container">
-                                                            <h2 class="people__bootom__text">WooCommerce - the <b> most customizable eCommerce platform</b> for building <b> your online business.</b></h2>
-                                                            <a href="#" class="getstart__btn">GET STARTED</a>
-                                                        </div>
-                                                    </div>
-                                            </section>
-                                     
-                                    </main>
-                                    <footer class="footer">
-                                        <div class="container">
-                                            <section>
                                                 
-                                            </section>
-                                        </div>
+                                            </div>
+                                        </section>
+                                        
+                                        <section class="footer__bottom">
+                                            <div class="container">
+                                                <ul class="footer__menu menu">
+                                                    <li class="menu__list"><b><a href="#" class="menu__link">Who we Are</a></b></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">About</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Team</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Work With Us</a></li>
+                                                </ul>
+                                                <ul class="menu">
+                                                    <li class="menu__list"><b><a href="#" class="menu__link">Who we Are</a></b></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Features</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Payments</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Marketing</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Shipping</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Extension Store</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">eCommerce blog</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Development blog</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Ideas board</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Mobile App</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Community</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Style Guide</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Email Newsletter</a></li>
+                                                </ul>
+                                                <ul class="menu">
+                                                    <li class="menu__list"><b><a href="#" class="menu__link">Other products</a></b></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Storefront
+                                                    </a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">WooSlider</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Sensei</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Sensei Extensions</a></li>
+                                                </ul>
+                                                <ul class="menu">
+                                                    <li class="menu__list"><b><a href="#" class="menu__link">Support</a></b></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Documentation</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Customizations</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Support Policy</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Contact</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">COVID-19 Resources</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Privacy Notice for</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">California Users</a></li>
+                                                </ul>
+                                                <ul class="menu">
+                                                    <li class="menu__list"><b><a href="#" class="menu__link">We recommend</a></b></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">WooExperts</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Hosting Solutions</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Pre-sales FAQ</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Success Stories</a></li>
+                                                    <li class="menu__list"><a href="#" class="menu__link">Design Feedback Group</a></li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                        
+                                        <nav class="footer__navbar">
+                                            <div class="container">
+                                                <div class="wrapper">
+                                                    <a href="http://twitter.com"><img src="/img/Vector4.svg" alt="icon"></a>
+                                                    <a href="http://fasebook.com"><img src="/img/Vector5.svg" alt="icon"></a>
+                                                    <a href="http://wifi.com"><img src="/img/wifi.svg" alt="icon"></a>
+                                                    <a href="http://instagram.com"><img src="/img/Vector6.svg" alt="icon"></a>
+                                                </div>
+                                                
+                                                <address>COPYRIGHT WOOCOMMERCE 2020 - TERMS & CONDITIONS PRIVACY POLICY</address>
+                                                
+                                                <a href="http://automatic.com"><img src="/img/automatic.svg" alt="logo"></a>
+                                            </div>
+                                        </nav>
                                     </footer>
+
+                                    <script src="./js/index.js"></script>
                                 </body>
                                 </html>

@@ -1,5 +1,7 @@
 .header{
-    background: #E5E5E5;
+background: rgb(229,229,229);
+background: linear-gradient(180deg, rgba(229,229,229,1) 18%, rgba(246,249,255,1) 51%);
+height: 680px;
     background-image: url(/img/V.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -43,20 +45,132 @@
     .intro{
         
         .container{
+            position: relative;
             display: flex;
             align-items: center;
-            .shoes{
+            .modal__shoes{
+                display:  none;
+                padding: 10px;
+                height: 248px;
+                width: 406px;
+                border-radius: 23px;
+                z-index: 20;
+                right: 50px;
+                top: 400px;
+                border-radius: 23px;
+                background: #FFFFFF;
                 
-                padding-right: 50px;
+                position: absolute;
+                
+                span{
+                    
+                    border-bottom: 1px solid #E5EFFF;
+                    
+                    &:last-child{
+                        border: none;
+                    }
+                    
+                }
+                
             }
-            .intro__text__wrapper{
-                padding: 100px 0 0 80px;
+            .activ{
                 
+                display: block;
+            }
+            
+            .img__wrapper{
+                margin: -80px;
+                height: 350px;
+                width: 600px;
+                border-radius: 20px;
+                border: 1px solid #E5EFFF;
+                background: #FFFFFF;
+                
+                display: flex;
+                align-items: center;
+                text-align: center;
+                img{
+                    margin-left: -1px;
+                }
+                
+                .text__wrapper{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-align: left;
+                    margin-top: -250px;
+                    position: relative;
+                    
+                    p{
+                        padding-left: 20px;
+                        margin-top: 50px;
+                        color: #868686;
+                        
+                        b{
+                            color: #272D4E;
+                            
+                        }
+                        
+                    }
+                    .shoes__title{
+                        font-family: 'Roboto', sans-serif;
+                        padding-left: 20px;
+                        font-size: 29px;
+                        width: 250px;
+                        font-weight: 400;
+                        text-align: left;
+                        
+                    }    
+                }
+                
+                .shoes__btn{
+                    position: absolute;
+                    top: 280px;
+                    margin-left: 20px;
+                    height: 49px;
+                    padding: 0 40px;
+                    border-radius: 4px;
+                    background: #7854F7;
+                    color: #fff;
+                }
+                .sale__btn{
+                    border: none;
+                    height: 54px;
+                    width: 117px;
+                    border-radius: 37px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 19px;
+                    font-weight: 700;
+                    letter-spacing: 0.4em;
+                    text-align: center;
+                    background: #70C217;                 position: absolute;
+                    right: 345px;
+                    top: 50px;
+                    color: #fff;
+                }
+                .sell__btn{
+                    border: none;
+                    width: 75px;
+                    height: 75px;
+                    z-index: 30;
+                    position: absolute;
+                    background: #FFBA49;
+                    background-repeat: no-repeat;
+                    background-image: url(/img/Union.svg);
+                    background-position: center;
+                    border-radius: 50%;
+                    right: 540px;
+                    
+                }
+            }
+            
+            .intro__text__wrapper{
+                padding: 100px 0 0 50px;
                 .intro__title{
                     font-family: 'Roboto', sans-serif;
-                    font-size: 75px;
+                    font-size: 68px;
                     font-weight: 700;
-                    width: 818px;
+                    width: 750px;
                 }
                 
                 .intro__text {
@@ -81,6 +195,8 @@
                         
                     }
                 }
+                
+                
                 .customize{
                     background-color: transparent;
                     color: #94A2B3;
@@ -91,37 +207,8 @@
                     }
                 }
             }
-            position: relative;
             
-            &::before{
-                content: "SALE";
-                height: 54px;
-                width: 147px;
-                border-radius: 37px;
-                font-family: 'Roboto', sans-serif;
-                font-size: 19px;
-                font-weight: 700;
-                line-height: 2.7;
-                letter-spacing: 0.4em;
-                text-align: center;
-                background: #70C217;                 position: absolute;
-                right: 65px;
-                top: 35px;
-                color: #fff;
-            }
-            &::after{
-                content: "";
-                width: 75px;
-                height: 75px;
-                position: absolute;
-                background: #FFBA49;
-                background-repeat: no-repeat;
-                background-image: url(/img/Union.svg);
-                background-position: center;
-                border-radius: 50%;
-                right: 365px;
-                
-            }
+            
         }
     }
 }
