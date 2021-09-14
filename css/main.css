@@ -436,7 +436,6 @@
 }
 
 .footer .footer__navbar .container address a {
-  margin-top: 70px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -518,7 +517,6 @@ a {
   background-color: transparent;
   width: 350px;
   border-radius: 20px;
-  border: none;
 }
 
 .main .simple .container .card__wrapper .card img {
@@ -550,7 +548,6 @@ a {
   font-size: 18px;
   font-weight: 700;
   color: #299EF3;
-  padding-top: 55px;
 }
 
 .main .simple .container .card__wrapper .card:nth-child(4) {
@@ -649,11 +646,6 @@ a {
 
 .main .mentors button {
   border: none;
-  background-color: transparent;
-}
-
-.main .mentors button:nth-child(1) {
-  margin-top: 40px;
 }
 
 .main .mentors .container .mentors__title {

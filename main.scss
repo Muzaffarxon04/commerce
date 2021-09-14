@@ -50,7 +50,7 @@
                     background-color: transparent;
                     width: 350px;
                     border-radius: 20px;
-                    border: none;
+                    
                     
                     img{
                         margin-left: -45px;
@@ -83,7 +83,6 @@
                         font-size: 18px;
                         font-weight: 700;
                         color:#299EF3;
-                        padding-top: 55px;
                     }
                     &:nth-child(4){
                         margin-top: 70px;
@@ -169,11 +168,7 @@
 
            button{
             border: none;
-background-color: transparent;
-            &:nth-child(1){
-
-                margin-top: 40px;
-            }
+            
 
         }
         .container{
