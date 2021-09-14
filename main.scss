@@ -109,13 +109,29 @@
                 display: flex;
                 align-items: center;
                 margin-top: -40px;
+                position: relative;
+
+                    &::before{
+                        content: '';
+                        height: 472px;
+                        width: 213px;
+                        background-image: url(./img/kvadrat-yellow.svg);
+                        background-position: center;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        z-index: 40;
+                    }
+                    
                 .text__wrapper{
                     width: 480px;
                     padding-left: 50px;
                     margin-top: -20px;
+                
                     &:nth-child(2){
                         
                         margin-top: -50px;
+                        
                     }
                     
                     .block__title{
