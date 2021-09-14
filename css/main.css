@@ -416,7 +416,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 25px;
 }
 
 .footer .footer__navbar .container {
@@ -436,11 +435,13 @@
   margin-right: 30px;
 }
 
-.footer .footer__navbar .container address {
+.footer .footer__navbar .container address a {
+  margin-top: 70px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
+  color: #272D4E;
 }
 
 *,
