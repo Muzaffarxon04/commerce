@@ -24,26 +24,26 @@
                 justify-content: space-between;
                 align-items: center;
                 padding: 0 60px;
-              
+                
                 .pay__btn{
                     background-color: transparent;
                     border: none;
                     position: relative;
                     top: -160px;
                 }
-              
+                
                 .modal {
                     position: absolute;
                     width: 202px ;
                     left: -30px;
                     top: 270px;
                     display: none;
-                   height: 264px;
-
-              
+                    height: 264px;
+                    
+                    
                     z-index: 20;
                 }
-                    .active{
+                .active{
                     display: block;
                 }
                 .card {
@@ -165,11 +165,11 @@
         background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
         text-align: center;
         padding-top: 100px;
-
-           button{
+        
+        button{
             border: none;
             
-
+            
         }
         .container{
             .mentors__title{
@@ -206,7 +206,7 @@
                 
             }
         }
-     
+        
         
     }
     .people{
