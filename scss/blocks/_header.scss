@@ -1,0 +1,127 @@
+.header{
+    background: #E5E5E5;
+    background-image: url(/img/V.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        .menu{
+            display: flex;
+            margin-left: -100px;
+            .menu__list{
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 500;
+                margin-left: 30px;
+                
+                .menu__link{
+                    color: #272D4E;
+                    
+                }
+            }
+        }
+    }
+    .navbar__right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .login, .getstart, .search__btn{
+            background-color: transparent;
+            border: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 30px;
+        }
+    }
+    
+    .intro{
+        
+        .container{
+            display: flex;
+            align-items: center;
+            .shoes{
+                
+                padding-right: 50px;
+            }
+            .intro__text__wrapper{
+                padding: 100px 0 0 80px;
+                
+                .intro__title{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 75px;
+                    font-weight: 700;
+                    width: 818px;
+                }
+                
+                .intro__text {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 716px;
+                    color: #94A2B3;
+                    padding: 29px 0 57px;
+                }
+                
+                .intro__btn {
+                    border-radius: 60px;
+                    background: #7854F7;
+                    padding: 20px;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #fff;
+                    &:hover{
+                        background-color: #272D4E;
+                        
+                    }
+                }
+                .customize{
+                    background-color: transparent;
+                    color: #94A2B3;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: transparent;
+                        color: #272D4E;
+                    }
+                }
+            }
+            position: relative;
+            
+            &::before{
+                content: "SALE";
+                height: 54px;
+                width: 147px;
+                border-radius: 37px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 19px;
+                font-weight: 700;
+                line-height: 2.7;
+                letter-spacing: 0.4em;
+                text-align: center;
+                background: #70C217;                 position: absolute;
+                right: -45px;
+                top: 35px;
+                color: #fff;
+            }
+            &::after{
+                content: "";
+                width: 75px;
+                height: 75px;
+                position: absolute;
+                background: #FFBA49;
+                background-repeat: no-repeat;
+                background-image: url(/img/Union.svg);
+                background-position: center;
+                border-radius: 50%;
+                right: 340px;
+                
+            }
+        }
+    }
+}
