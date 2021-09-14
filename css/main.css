@@ -102,29 +102,45 @@
 }
 
 .header .intro .container .modal__shoes {
+  background: #fff !important;
   display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 10px;
-  height: 248px;
+  height: 158px;
   width: 406px;
   border-radius: 23px;
   z-index: 20;
-  right: 50px;
+  right: 100px;
   top: 400px;
   border-radius: 23px;
-  background: #FFFFFF;
   position: absolute;
 }
 
-.header .intro .container .modal__shoes span {
+.header .intro .container .modal__shoes .span {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #E5EFFF;
 }
 
-.header .intro .container .modal__shoes span:last-child {
+.header .intro .container .modal__shoes .span:last-child {
   border: none;
 }
 
 .header .intro .container .activ {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header .intro .container .img__wrapper {
@@ -215,6 +231,7 @@
   background-position: center;
   border-radius: 50%;
   right: 540px;
+  top: 320px;
 }
 
 .header .intro .container .intro__text__wrapper {
@@ -531,6 +548,7 @@ a {
   font-size: 18px;
   font-weight: 700;
   color: #299EF3;
+  padding-top: 55px;
 }
 
 .main .simple .container .card__wrapper .card:nth-child(4) {

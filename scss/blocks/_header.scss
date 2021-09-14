@@ -49,33 +49,38 @@ height: 680px;
             display: flex;
             align-items: center;
             .modal__shoes{
+                     background:#fff !important;
                 display:  none;
+                flex-direction: column;
                 padding: 10px;
-                height: 248px;
+                height: 158px;
                 width: 406px;
                 border-radius: 23px;
                 z-index: 20;
-                right: 50px;
+                right: 100px;
                 top: 400px;
-                border-radius: 23px;
-                background: #FFFFFF;
+            border-radius: 23px;
                 
                 position: absolute;
                 
-                span{
-                    
+                .span{
+                    padding: 0 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                     border-bottom: 1px solid #E5EFFF;
-                    
+            
                     &:last-child{
                         border: none;
                     }
                     
+         
                 }
                 
             }
             .activ{
                 
-                display: block;
+                display: flex;
             }
             
             .img__wrapper{
@@ -160,6 +165,7 @@ height: 680px;
                     background-position: center;
                     border-radius: 50%;
                     right: 540px;
+                    top: 320px;
                     
                 }
             }
